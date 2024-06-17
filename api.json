@@ -1,0 +1,14 @@
+{
+    "messaging_product": "whatsapp",
+    "to": "YOUR_PHONE",
+    "whatsappURL": "YOUR_URL_WHATSAPP",
+    "whatsappToken": "YOUR_TOKEN_WHATSAPP",
+   
+    "type": "template",
+    "template": {
+        "name": "hello_world",
+        "language": {
+            "code": "en_US"
+        }
+    }
+}
