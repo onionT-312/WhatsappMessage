@@ -7,11 +7,12 @@ import lombok.Setter;
 @Setter
 public class WhatsappRequest {
 
-    private String messaging_product;
+    private String messaging_product = "whatsapp";
+    private String whatsappURL = "YOUR_WHATSAPP_URL";
+    private String whatsappToken = "YOUR_WHATSAPP_TOKEN";
+    private String type = "template";
+    
     private String to;
-    private String whatsappURL;
-    private String whatsappToken;
-    private String type;
     private Template template;
 
 
